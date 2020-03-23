@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
-
-
-
 /*---Media Queries --*/
+
 @media (max-width: 992px) {
   .padding-left {
     padding: 0;
     overflow-x: hidden;
-    }
   }
+}
+
 @media (max-width: 768px) {
   .padding-left {
     padding: 0;
     overflow-x: hidden;
   }
 }
+
 @media (max-width: 576px) {
   .padding-left {
     padding: 0;
@@ -39,8 +38,8 @@
   }
 }
 
-
 /*---Firefox Bug Fix --*/
+
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
@@ -48,13 +47,16 @@
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
+
 /*--- Fixed Background Image --*/
+
 figure {
   position: relative;
   width: 100%;
   height: 60%;
   margin: 0!important;
 }
+
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -63,6 +65,7 @@ figure {
   width: 100%;
   height: 100%;
 }
+
 #fixed {
   background-image: url('img/mac.png');
   position: fixed;
@@ -74,17 +77,15 @@ figure {
   background-size: cover;
   background-position: center center;
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   will-change: transform;
 }
+
 /*--- Bootstrap Padding Fix --*/
+
 [class*="col-"] {
-    padding: 1rem;
+  padding: 1rem;
 }
-
-
-
-
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
@@ -102,9 +103,6 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
 
 body, html {
   font-family: 'Quicksand', sans-serif;
@@ -127,25 +125,11 @@ header {
   color: #654fff;
 }
 
-
 .reach {
   font-size: 2rem;
   font-weight: 600;
   padding-right: 2rem;
 }
-
-
-button {
-  width: 8rem;
-  height: 2.5rem;
-  border-radius: 5px;
-  background-color: #6e4fff;
-  font-size: 1rem;
-  font-weight: 600;
-  text-align: center;
-  color: #ffffff;
-}
-
 
 .items-right {
   text-align: right;
@@ -159,7 +143,6 @@ a {
   text-align: center;
 }
 
-
 .main-p {
   font-size: 4rem;
   color: #000000;
@@ -168,21 +151,22 @@ a {
 
 .main-p-grey {
   opacity: 0.5;
-  font-family: 'Poppins', sans-serif
+  font-family: 'Poppins', sans-serif;
   color: #000000;
   font-size: 2rem;
 }
 
 .main-btn {
-  width: 8rem;
-  height: 3.5rem;
-  border-radius: 5px;
+  min-width: 7.5rem;
+  min-height: 2.8rem;
+  border-radius: 0.4rem;
+  border: none;
   background-color: #6e4fff;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   color: #ffffff;
+  font-weight: 500;
 }
-
 
 .p-beg {
   font-size: 1rem;
@@ -216,9 +200,9 @@ a {
 }
 
 .icon-text {
- font-size: 1.2rem;
- font-weight: 600;
- color: #181920;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #181920;
 }
 
 .bg-color {
@@ -243,11 +227,12 @@ a {
 
 .padding {
   padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .p-comment {
   opacity: 0.5;
-  font-family: 'Poppins', sans-serif
+  font-family: 'Poppins', sans-serif;
   line-height: 1.55;
   letter-spacing: -0.2px;
   text-align: center;
@@ -288,12 +273,12 @@ a {
 }
 
 .image-mid-right-comment-sm {
-   opacity: 0.5;
-   line-height: 1.63;
-   letter-spacing: -0.15px;
-   color: #000000;
-   font-family: 'Poppins', sans-serif;
-   font-size: 1rem;
+  opacity: 0.5;
+  line-height: 1.63;
+  letter-spacing: -0.15px;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
 }
 
 .image-mid-sm {
@@ -302,7 +287,6 @@ a {
   object-fit: contain;
   margin: 2rem;
 }
-
 
 .chat {
   font-weight: bold;
@@ -327,13 +311,15 @@ a {
 }
 
 .btn-mid {
-  width: 11rem;
-  height: 3rem;
-  border-radius: 5px;
+  width: 9.5rem;
+  height: 4rem;
+  border: none;
+  border-radius: 6px;
   background-color: #6e4fff;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 400;
   letter-spacing: -0.2px;
+  color: white;
 }
 
 .sale-img {
@@ -363,17 +349,15 @@ a {
 
 .checked {
   color: orange;
-  width: 2rem;
-  height: 2rem;
 }
 
 .user {
   float: left;
-  margin-right:2rem;
+  margin-right: 2rem;
   border-radius: 50%;
   width: 5rem;
   height: 5rem;
-  -webkit-shape-outside:circle();
+  -webkit-shape-outside: circle();
   shape-outside: circle();
 }
 
@@ -410,11 +394,13 @@ a {
   border: none;
   background: none;
   width: 9rem;
-  height: 4rem;
+  height: 3.5rem;
   background-color: #5ccb75;
-  font-size: 1.2rem;
+  color: white;
+  font-size: 1.1rem;
   font-weight: 600;
   text-align: center;
+  border-radius: 0.5rem;
 }
 
 .gray {
@@ -423,23 +409,25 @@ a {
   border: none;
   background: none;
   width: 8rem;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: none;
   background-color: grey;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   text-align: center;
   color: white;
+  border-radius: 0.5rem;
 }
 
 .ready {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
   color: #ffffff;
 }
 
 .line {
-  height: 0.1rem;
+  height: 0.2rem;
+  width: auto;
   opacity: 0.3;
   border: solid 0.1rem #f0f1f2;
 }
@@ -461,16 +449,16 @@ a {
   color: white;
 }
 
-.header-list {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: white;
-}
-
 .items {
   font-size: 1rem;
-  color: #ffffff;
+  color: grey;
   opacity: 0.8;
+}
+
+.header-list {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
 }
 
 .col-md-2 {
@@ -488,4 +476,19 @@ a {
 
 .col-lg-3 {
   min-width: 16rem;
+}
+
+iframe {
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=.2);
+  position: absolute;
+}
+
+.bg-white {
+  background: linear-gradient(180deg, white 88%, #141416 12%);
 }
