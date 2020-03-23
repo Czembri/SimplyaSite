@@ -153,7 +153,7 @@ a {
   opacity: 0.5;
   font-family: 'Poppins', sans-serif;
   color: #000000;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .main-btn {
@@ -312,7 +312,7 @@ a {
 }
 
 .btn-mid {
-  width: 9.5rem;
+  width: 12rem;
   height: 4rem;
   border: none;
   border-radius: 6px;
@@ -321,6 +321,7 @@ a {
   font-weight: 400;
   letter-spacing: -0.2px;
   color: white;
+  display: inline-block;
 }
 
 .sale-img {
