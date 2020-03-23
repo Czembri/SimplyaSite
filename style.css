@@ -157,8 +157,8 @@ a {
 }
 
 .main-btn {
-  min-width: 7.5rem;
-  min-height: 3rem;
+  width: 7.5rem;
+  height: 3.1rem;
   border-radius: 0.4rem;
   border: none;
   background-color: #6e4fff;
