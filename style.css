@@ -245,6 +245,7 @@ a {
   border-radius: 0.8rem;
   border: solid 1px #e8e8e8;
   background-color: #ffd370;
+  min-height: 30rem;
 }
 
 .image-mid {
@@ -287,6 +288,12 @@ a {
   height: 8.5rem;
   object-fit: contain;
   margin: 2rem;
+}
+
+.kropki {
+  width: 10rem;
+  height: 12rem;
+  padding-bottom: 1rem;
 }
 
 .chat {
@@ -403,6 +410,7 @@ a {
   font-weight: 600;
   text-align: center;
   border-radius: 0.5rem;
+  display: inline-block
 }
 
 .gray {
@@ -419,6 +427,7 @@ a {
   text-align: center;
   color: white;
   border-radius: 0.5rem;
+  display: inline-block
 }
 
 .ready {
@@ -478,6 +487,10 @@ a {
 
 .col-lg-3 {
   min-width: 16rem;
+}
+
+.col-md-1 {
+  min-width: 8rem;
 }
 
 iframe {
